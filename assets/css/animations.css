@@ -1,0 +1,55 @@
+/* ANIMACIONES LITERARIAS */
+
+/* Entrada general */
+.fade-in {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/* Título */
+.title-appear {
+    opacity: 0;
+    letter-spacing: 0.04em;
+    animation: titleReveal 1.4s ease-out forwards;
+}
+
+/* Contenido */
+.text-flow {
+    opacity: 0;
+    animation: textFade 1.6s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+/* Sidebar */
+.sidebar-breath {
+    animation: breath 6s ease-in-out infinite;
+}
+
+/* Keyframes */
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes titleReveal {
+    to {
+        opacity: 1;
+        letter-spacing: 0;
+    }
+}
+
+@keyframes textFade {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes breath {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(4px); }
+    100% { transform: translateY(0); }
+}
