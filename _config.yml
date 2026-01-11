@@ -1,0 +1,14 @@
+title: Letras & Versos
+description: Un lugar para soñar y escribir
+url: ""
+baseurl: ""
+
+markdown: kramdown
+
+collections:
+  poemas:
+    output: true
+  relatos:
+    output: true
+  reflexiones:
+    output: true

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f6f1e9;
+  color: #3b2f2f;
+}
+
+.site-header {
+  background: #efe6d8;
+  padding: 1.5rem;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  background: url('/assets/images/header-bg.jpg') center/cover;
+  padding: 6rem 2rem;
+  text-align: left;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+.hero-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #b36b3f;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+}
+
+.section-card,
+.post-card {
+  background: #fffaf3;
+  padding: 1.5rem;
+  border: 1px solid #e0d6c7;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  background: #efe6d8;
+}
+
+/* ===== NOTAS AL MARGEN (COMENTARIOS) ===== */
+
+.post-notes {
+    max-width: 700px;
+    margin: 5rem auto 0;
+    padding-top: 3rem;
+    border-top: 1px solid var(--gray-dark);
+}
+
+.notes-title {
+    font-family: var(--sans);
+    font-size: 1.2rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 2rem;
+    text-align: center;
+}
